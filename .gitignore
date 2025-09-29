@@ -1,0 +1,66 @@
+node_modules/
+.env
+.env.*.local
+dist/
+build/
+/.vite/
+.DS_Store
+coverage/
+cypress/videos/
+cypress/screenshots/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.idea/
+.vscode/
+*.log
+.cache/
+/.pnp.*
+tsconfig.tsbuildinfo
+.DS_Store
+
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Node / package
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / output
+dist/
+build/
+out/
+lib/
+*.tsbuildinfo
+
+# Framework-specific
+.next/
+.vite/
+/.vite/
+
+# Testing / coverage / CI artifacts
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache / misc
+.cache/
+.cache-loader/
+.pnp.*
+
+# Logs
+*.log
