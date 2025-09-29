@@ -124,17 +124,3 @@ If you're maintaining this repo as a template for others, consider adding:
 
 - If translations don't update in the browser after switching languages, ensure `app/root.tsx` listens for i18n changes and updates `document.documentElement.lang` (this template already includes that logic).
 - If Cypress times out on the language test, try running the app locally (`npm run dev`) and opening Cypress (`npm run cy:open`) to debug.
-
-## License
-
-This project doesn't include a license file by default. If you publish it as a template, add a `LICENSE` (MIT, Apache-2.0, etc.) to make reuse clear.
-
----
-
-If you want, I can also:
-
-- Add a `.gitignore` file now
-- Add a `CONTRIBUTING.md` and `LICENSE`
-- Create a small GitHub Actions CI workflow that runs typechecks and tests on push
-
-Tell me which of the above you'd like me to add and I’ll implement it.
